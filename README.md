@@ -55,34 +55,6 @@ The **PhonePe Dashboard** provides comprehensive visualization of digital paymen
 
 ---
 
-## 📁 **Project Structure**
-
-```
-PhonePe-Dashboard/
-├── data/
-│   ├── raw/                    # Raw CSV files from PhonePe Pulse
-│   ├── processed/              # Cleaned and transformed data
-│   └── sample/                 # Sample datasets for testing
-├── database/
-│   ├── schema/                 # MySQL database schema files
-│   ├── scripts/                # Database creation and setup scripts
-│   └── migrations/             # Database migration files
-├── powerbi/
-│   ├── PhonePe_Dashboard.pbix  # Main Power BI dashboard file
-│   ├── templates/              # Power BI template files
-│   └── themes/                 # Custom themes and styling
-├── python/
-│   ├── data_processing/        # ETL and data processing scripts
-│   ├── database/               # Database connection and operations
-│   ├── utils/                  # Utility functions and helpers
-│   └── config/                 # Configuration files
-├── screenshots/                # Dashboard screenshots and images
-├── docs/                       # Documentation and guides
-└── requirements.txt            # Python dependencies
-```
-
----
-
 ## ⚙️ **Setup Instructions**
 
 ### 🔹 **Step 1: Clone the Repository**
