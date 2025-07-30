@@ -3,7 +3,7 @@
 ## 📌 **Project Overview**
 The **PhonePe Dashboard** provides comprehensive visualization of digital payment trends and transaction analytics across India. Built using **Power BI Desktop** and **MySQL**, this dashboard helps **fintech analysts, business strategists, and payment industry experts** understand transaction patterns, identify growth opportunities, and assess regional payment adoption. By leveraging this dashboard, organizations can make data-driven decisions to improve digital payment ecosystem and user engagement.
 
-![PhonePe Dashboard](./screenshots/phonepe_dashboard.jpg)
+<img width="4000" height="2250" alt="Image" src="https://github.com/user-attachments/assets/12cf0bb1-652b-40c0-abcd-8f4718ae6a7d" />
 
 ---
 
@@ -40,7 +40,6 @@ The **PhonePe Dashboard** provides comprehensive visualization of digital paymen
 ### **Data Storage & Management**
 - **MySQL 8.0** - Primary database for storing transaction data
 - **MySQL Connector/ODBC** - Database connectivity
-- **Python 3.8+** - Data processing and ETL operations
 
 ### **Visualization & Analytics**
 - **Microsoft Power BI Desktop** - Primary dashboard creation tool
@@ -48,10 +47,7 @@ The **PhonePe Dashboard** provides comprehensive visualization of digital paymen
 - **DAX (Data Analysis Expressions)** - Custom calculations and measures
 
 ### **Data Processing**
-- **Pandas** - Data manipulation and analysis
-- **NumPy** - Numerical computations
 - **SQLAlchemy** - Database ORM and connection management
-- **Matplotlib/Seaborn** - Additional data visualization support
 
 ---
 
@@ -192,8 +188,7 @@ python python/data_processing/load_phonepe_data.py
 ### **Common Issues**
 1. **Database Connection Error**: Check MySQL service and credentials
 2. **Power BI Data Refresh Error**: Verify ODBC driver installation
-3. **Python Package Issues**: Update pip and reinstall requirements
-4. **Large Dataset Loading**: Consider data sampling for testing
+3. **Large Dataset Loading**: Consider data sampling for testing
 
 ### **Performance Optimization**
 - Use indexed columns for faster queries
